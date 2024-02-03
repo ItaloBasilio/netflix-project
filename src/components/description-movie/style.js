@@ -1,8 +1,8 @@
 import styled from 'styled-components'
 
 export const Container = styled.div`
-    width: 520px;
-    padding-top: 50px 60px 20px;
+    width: 610px;
+    padding: 50px 60px 20px;
     display: flex;
     flex-direction: column;
 `;
@@ -10,16 +10,17 @@ export const Container = styled.div`
 export const Title = styled.h1`
     z-index: 1;
     font-weight: 700;
-    font-size: 40px;
+    font-size: 45px;
     color: #fff;
 `;
 
 export const Description = styled.p`
     z-index: 1;
+    margin-top: 30px;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 22px;
     color: #fff;
-    opacity: 0.7;
+    opacity: 0.8;
 `;
 
 export const Button = styled.button`
@@ -29,7 +30,7 @@ export const Button = styled.button`
     height: 60px;
     padding-right: 20px;
     padding-left: 15px;
-    margin-top: 16px;
+    margin-top: 50px;
     background: #ff1c0b;
     border-radius: 9px;
     border: none;

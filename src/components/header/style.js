@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Container = styled.header`
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0) 100%);
+    background: linear-gradient(to bottom ,rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0) 100%);
     width: 100%;
     display: flex;
     align-items: center;
@@ -29,17 +29,14 @@ export const Container = styled.header`
         position: relative;
     }
 
-    a:hover{
-        opacity: 0.7;
-    }
 
     a::after{
         content:"";
         width: 0;
-        height: 2px;
+        height: 1px;
         background-color: #ffffff;
         position:absolute ;
-        bottom: 2px;
+        bottom: -3px;
         left: 0;
         transition: 0.3s;
     }
