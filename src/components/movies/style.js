@@ -22,7 +22,6 @@ export const Container = styled.div`
 `;
 
 export const Text = styled.p`
-    z-index: 10;
     color: white;
     font-size: 25px;
     font-weight: 600;
