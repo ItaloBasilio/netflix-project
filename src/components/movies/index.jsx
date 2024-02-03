@@ -1,9 +1,11 @@
+
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import * as C from './style';
-import spiderman from '../../assets/spiderman3.jpg';
-import lord1 from '../../assets/lordoftherings.png';
-import avengers from '../../assets/vingadores.png';
+
+import orion from '../../assets/orion.jpg';
+import jogosamor from '../../assets/jogosamor.jpg';
+import abismo from '../../assets/abismo.jpg';
 
 export const Movies = () => {
     const responsive = {
@@ -22,49 +24,46 @@ export const Movies = () => {
     };
 
     return (
-
         <C.Container>
             <C.Text>Filmes</C.Text>
-
             <Carousel responsive={responsive}>
-                <C.Movie src={spiderman} alt='imageMovie' />
-                <C.Movie src={lord1} alt='imageMovie' />
-                <C.Movie src={avengers} alt='imageMovie' />
-                <C.Movie src={spiderman} alt='imageMovie' />
-                <C.Movie src={lord1} alt='imageMovie' />
-                <C.Movie src={avengers} alt='imageMovie' />
-                <C.Movie src={spiderman} alt='imageMovie' />
-                <C.Movie src={lord1} alt='imageMovie' />
-                <C.Movie src={avengers} alt='imageMovie' />
+                <C.Movie src={orion} alt='imageMovie' />
+                <C.Movie src={jogosamor} alt='imageMovie' />
+                <C.Movie src={abismo} alt='imageMovie' />
+                <C.Movie src={orion} alt='imageMovie' />
+                <C.Movie src={jogosamor} alt='imageMovie' />
+                <C.Movie src={abismo} alt='imageMovie' />
+                <C.Movie src={orion} alt='imageMovie' />
+                <C.Movie src={jogosamor} alt='imageMovie' />
+                <C.Movie src={abismo} alt='imageMovie' />
             </Carousel>
 
-            <C.Text>Tv</C.Text>
-
+            <C.Text>Séries</C.Text>
             <Carousel responsive={responsive}>
-                <C.Movie src={spiderman} alt='imageMovie' />
-                <C.Movie src={lord1} alt='imageMovie' />
-                <C.Movie src={avengers} alt='imageMovie' />
-                <C.Movie src={spiderman} alt='imageMovie' />
-                <C.Movie src={lord1} alt='imageMovie' />
-                <C.Movie src={avengers} alt='imageMovie' />
-                <C.Movie src={spiderman} alt='imageMovie' />
-                <C.Movie src={lord1} alt='imageMovie' />
-                <C.Movie src={avengers} alt='imageMovie' />
+                <C.Movie src={orion} alt='imageMovie' />
+                <C.Movie src={jogosamor} alt='imageMovie' />
+                <C.Movie src={abismo} alt='imageMovie' />
+                <C.Movie src={orion} alt='imageMovie' />
+                <C.Movie src={jogosamor} alt='imageMovie' />
+                <C.Movie src={abismo} alt='imageMovie' />
+                <C.Movie src={orion} alt='imageMovie' />
+                <C.Movie src={jogosamor} alt='imageMovie' />
+                <C.Movie src={abismo} alt='imageMovie' />
             </Carousel>
 
             <C.Text>Tudo</C.Text>
-
             <Carousel responsive={responsive}>
-                <C.Movie src={spiderman} alt='imageMovie' />
-                <C.Movie src={lord1} alt='imageMovie' />
-                <C.Movie src={avengers} alt='imageMovie' />
-                <C.Movie src={spiderman} alt='imageMovie' />
-                <C.Movie src={lord1} alt='imageMovie' />
-                <C.Movie src={avengers} alt='imageMovie' />
-                <C.Movie src={spiderman} alt='imageMovie' />
-                <C.Movie src={lord1} alt='imageMovie' />
-                <C.Movie src={avengers} alt='imageMovie' />
+                <C.Movie src={orion} alt='imageMovie' />
+                <C.Movie src={jogosamor} alt='imageMovie' />
+                <C.Movie src={abismo} alt='imageMovie' />
+                <C.Movie src={orion} alt='imageMovie' />
+                <C.Movie src={jogosamor} alt='imageMovie' />
+                <C.Movie src={abismo} alt='imageMovie' />
+                <C.Movie src={orion} alt='imageMovie' />
+                <C.Movie src={jogosamor} alt='imageMovie' />
+                <C.Movie src={abismo} alt='imageMovie' />
             </Carousel>
+
         </C.Container>
     );
 };

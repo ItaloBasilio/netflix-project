@@ -12,7 +12,7 @@ export const Header = () => {
         <nav style={{zIndex:'1'}}>
 
         <a href="#">Filmes</a>
-        <a href="#">Tv</a>
+        <a href="#">Séries</a>
         <a href="#">Tudo</a>
 
         </nav>
